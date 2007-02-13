@@ -14,7 +14,7 @@ require Exporter;
 
 our @ISA       = qw(Exporter);
 our @EXPORT_OK = qw(holidays);
-use version; our $VERSION = qv("0.1.0");
+use version; our $VERSION = qv("0.1.1");
 
 sub holidays {
     my %parameters = (
@@ -324,7 +324,7 @@ Matthias Dietrich E<lt>perl@rainboxx.deE<gt>
 
 =item L<Date::Calc>
 
-=item L<Date::Holidays::AU>
+=item L<Date::Holidays>
 
 =back
 
