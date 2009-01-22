@@ -14,7 +14,7 @@ require Exporter;
 
 our @ISA       = qw(Exporter);
 our @EXPORT_OK = qw(holidays);
-use version; our $VERSION = qv("0.1.1");
+use version; our $VERSION = qv("0.1.2");
 
 sub holidays {
     my %parameters = (
@@ -165,7 +165,7 @@ __END__
 
 =head1 NAME
 
-Date::Holidays::AT - Determine Austian holidays
+Date::Holidays::AT - Determine Austrian holidays
 
 =head1 SYNOPSIS
 
@@ -176,7 +176,7 @@ Date::Holidays::AT - Determine Austian holidays
 =head1 DESCRIPTION
 
 This module exports a single function named B<holidays()> which returns a list of 
-Austian holidays in a given year. 
+Austrian holidays in a given year. 
 
 =head1 KNOWN HOLIDAYS
 
