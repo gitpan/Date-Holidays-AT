@@ -1,5 +1,8 @@
 Revision history for Date-Holidays-AT
 
+0.1.3   01-22-2009/11:30pm
+        Fix: Corrected spelling errors in other files :)
+
 0.1.2   01-22-2009/11:20pm
         Fix: Corrected spelling error in POD
         Fix: Added version.pm to required modules
